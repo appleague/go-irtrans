@@ -18,7 +18,7 @@ func main() {
 		fmt.Println("Fatal error ", err.Error())
 	} else {
 		if len(os.Args) == 1 {
-			fmt.Println("list remotes and cmds: go run tcp_client.go list\nrun cmd for remote: go run tcp_client.go remote cmd")
+			fmt.Println("list remotes and cmds: go run go-irtrans.go list\nrun cmd for remote: go run go-irtrans.go remote cmd")
 		} else {
 			if len(os.Args) == 2 {
 				if os.Args[1] == "list" {
@@ -29,7 +29,7 @@ func main() {
 						fmt.Println(remote + ":" + gC)
 					}
 				} else {
-					fmt.Println("list remotes and cmds: go run tcp_client.go list\nrun cmd for remote: go run tcp_client.go remote cmd")
+					fmt.Println("list remotes and cmds: go run go-irtrans.go list\nrun cmd for remote: go run go-irtrans.go remote cmd")
 				}
 
 			} else if len(os.Args) == 3 {

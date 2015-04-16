@@ -2,8 +2,8 @@
 go script for irtrans device
 
 #help
-list remotes and cmds:	go run go-irtrans.go list
-run cmd for remote:		go run go-irtrans.go remote cmd
+list remotes and cmds: go run go-irtrans.go list
+run cmd for remote: go run go-irtrans.go remote cmd
 
 #examples
 #get list of remotes and cmds
